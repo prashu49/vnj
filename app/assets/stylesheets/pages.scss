@@ -1,7 +1,42 @@
 // Place all the styles related to the Pages controller here.
 // They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+// You can use Sass (SCSS) here: http://sass-lang.com
+
+.navbar-nav 
+{
+	> ul { 
+	   list-style-type:none;
+	   margin:2px;
+	   padding:2px;
+	}
+	> li {
+		float:left;
+		> a:link, a:visited
+		    {
+			background-color:black;
+			border:2px solid white;
+			display:block;
+			color:yellow;
+			font-size: 12px;
+			padding:2px;
+			width:70px;
+		    }
+		> a:hover, a:active
+		    {
+			background-color: pink;
+		    }
+	}
+}
+
+.jumbotron 
+{
+ background:white;
+}
 
 body {
-	
-     }
+    background: orange;
+}
+
+* {
+    box-sizing: border-box;
+} 
